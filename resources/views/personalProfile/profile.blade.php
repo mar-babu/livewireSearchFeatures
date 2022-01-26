@@ -3,9 +3,7 @@
         {{ __('Personal Profile') }}
     </x-slot>
     <x-slot name="slot">
-        <h1 align="center">Hi, here 
-            <span class="text-gray-400">livewire view file</span> will be included...!!
-        </h1>
+        <livewire:personal-profile />
     </x-slot>
     <x-slot name="script">
     </x-slot>
