@@ -28,6 +28,6 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     })->name('dashboard');
 
     // Other routes here
-    Route::get('profile/create', [PersonalProfileController::class, 'create'])->name('');
+    Route::get('profile/create', [PersonalProfileController::class, 'create'])->name('profile.create');
 
 });
