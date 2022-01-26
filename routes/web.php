@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PersonalProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,5 +26,8 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    // Other routes here
+    Route::get('profile/create', [PersonalProfileController::class, 'create'])->name('');
 
 });
