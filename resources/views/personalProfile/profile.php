@@ -3,7 +3,7 @@
         {{ __('Personal Profile') }}
     </x-slot>
     <x-slot name="slot">
-        <livewire:personal-profile />
+        <livewire:user-profile />
     </x-slot>
     <x-slot name="script">
     </x-slot>

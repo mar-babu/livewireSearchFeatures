@@ -4,7 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class PersonalProfile extends Component
+class UserProfile extends Component
 {
     public function render()
     {
