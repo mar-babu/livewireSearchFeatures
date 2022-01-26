@@ -8,6 +8,6 @@ class UserProfile extends Component
 {
     public function render()
     {
-        return view('livewire.personal-profile');
+        return view('livewire.user-profile');
     }
 }
